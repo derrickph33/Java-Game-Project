@@ -1,0 +1,19 @@
+﻿Derrick Phan
+CSC 203-03
+
+
+
+
+Project 5 Description
+
+
+In my design for Project 5, I added a UFO that enters the VirtualWorld and creates many different effects on the VirtualWorld.
+
+
+1. To trigger the event, you simply click on a space on the map where it is not occupied by trees, if there is a tree there you will be unable to click directly on top of it and it will say that you cannot place it there. Once you click on a space that is valid, you should be able to see the output. However, you can click on an area close to the tree and that will allow the mouse click to happen. 
+2. When the event is triggered, what should happen is that there should be a UFO placed where the mouse is clicked. When it is placed, an alien should come out of the UFO and move around the VirtualWorld. Additionally, if the UFO is placed in the area of a tree, it lights the tree on fire, and if the UFO is placed in the area of a dude, it turns the dude into a ghost.
+3. Like I mentioned earlier, the dude can be affected by the mouse clicked by turning into a ghost and disappearing, and then the tree should be affected by the mouse clicked if in range by turning into a burning tree. Additionally, the dudes can also be further affected since they now have health, and if their health falls under 0, they are gone and turned into a tombstone on the VirtualWorld.
+4. There are a few new entities added to VirtualWorld. The first is the Alien, which should move around the VirtualWorld using AStar pathing. Next, the tombstone that is added when the dude is under 0 health should just sit in the location where the dude disappeared. Lastly, the final new entity which is the UFO should remain in the spot where it was placed when the mouse was clicked. 
+
+
+Overall, there are quite a few new entities and animations I added to Project 5, and each carry their own unique animation/functionality.
